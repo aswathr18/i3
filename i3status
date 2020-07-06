@@ -29,7 +29,7 @@ volume master {
 }
 
 cpu_usage {
-        format= "CPU %usage <%cpu0 %cpu1>"
+        format= "CPU %usage"
         max_threshold= 75
 }
 
