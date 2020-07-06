@@ -38,3 +38,7 @@ class is "Google-chrome".
 
 * To execute daedalus wallet on startup 
 exec_always --no-startup-id ~/.local/bin/daedalus-mainnet
+
+* custom lock screen - i3lock
+```sudo apt-get install i3lock```
+
