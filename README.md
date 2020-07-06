@@ -30,7 +30,7 @@ class is "Google-chrome".
 ```
 
 * To control audio install pavucontrol
-$sudo apt install pavucontrol
+```$sudo apt install pavucontrol```
 
 * To add daedalus to the D Menu
 
