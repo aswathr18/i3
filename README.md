@@ -12,13 +12,16 @@ xrandr --output VGA-1 --right-of HDMI-1
 Customize status bar
 https://medium.com/hacker-toolbelt/my-i3status-customization-3e8ad6f0153a
 
+status bar config can be found in `~/.config/i3status/config`
+
 
 * To find class name to use for assigning certain applications to certain windows, 
 run $xprop, and click on the application.
-Then select the text in WM_CLASS(STRING) - Ex "google-chrome", "daedalus mainnet".
+Then select the text in `WM_CLASS(STRING)` - Ex "google-chrome", "daedalus mainnet".
 
 * To control audio install pavucontrol
 $sudo apt install pavucontrol
 
 * To add daedalus to the D Menu
-sudo ln -s ~/.local/bin/daedalus-mainnet /usr/bin/daedalus-mainnet
+
+```$sudo ln -s ~/.local/bin/daedalus-mainnet /usr/bin/daedalus-mainnet```
