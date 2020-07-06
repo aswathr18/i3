@@ -201,3 +201,6 @@ bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle # mute sound
 
 # lock screen
 bindsym MOD1+SHIFT+x exec i3lock -c 000000
+
+#Change order of monitors
+exec_always --no-startup-id xrandr --output VGA-1 --right-of HDMI-1
