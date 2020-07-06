@@ -18,3 +18,6 @@ run $xprop, and click on the application.
 
 * To control audio install pavucontrol
 $sudo apt install pavucontrol
+
+* To add daedalus to the D Menu
+sudo ln -s ~/.local/bin/daedalus-mainnet /usr/bin/daedalus-mainnet
