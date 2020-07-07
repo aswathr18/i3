@@ -42,6 +42,7 @@ exec_always --no-startup-id ~/.local/bin/daedalus-mainnet
 * custom lock screen - i3lock
 ```sudo apt-get install i3lock```
 
+##HIBERNATION DID NOT WORK IN UBUNTU 18.04.4 LTS
 * To enable hibernation: 
 http://ubuntuhandbook.org/index.php/2017/10/enable-hibernate-ubuntu-17-10/
 ```
@@ -49,6 +50,5 @@ $sudo nano /var/lib/polkit-1/localauthority/10-vendor.d/com.ubuntu.desktop.pkla
 When the file opens in the terminal window, scroll down to find out the section started as:
 “[Disable hibernate by default in upower]” and “[Disable hibernate by default in logind]”
 Change the both values of ResultActive to yes.
-```
-This works:
+
 https://ubuntuforums.org/showthread.php?t=1042946
