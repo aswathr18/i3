@@ -1,5 +1,5 @@
 # i3 Aswath
-
+## The files are modified/copied from multiple sources and are based on the i3 help docs. I have not mentioned the source in all the files, but thanks to all those who put in effort to share solutions on stackoverflow and other sites.
 * To move monitor position
 
 install xrandr
