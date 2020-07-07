@@ -50,3 +50,4 @@ When the file opens in the terminal window, scroll down to find out the section 
 “[Disable hibernate by default in upower]” and “[Disable hibernate by default in logind]”
 Change the both values of ResultActive to yes.
 ```
+https://askubuntu.com/questions/1087685/hibernate-not-working-in-18-04
