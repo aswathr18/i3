@@ -204,3 +204,20 @@ bindsym MOD1+SHIFT+x exec i3lock -c 000000
 
 #Change order of monitors
 exec_always --no-startup-id xrandr --output VGA-1 --right-of HDMI-1
+
+
+# Handle shutdown, sleep, restart, etc
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+bindsym MOD1+Pause mode "$mode_system"
+mode "$mode_system" {
+    bindsym l exec --no-startup-id ~/.i3/i3exit lock, mode "default"
+    bindsym e exec --no-startup-id ~/.i3/i3exit logout, mode "default"
+    bindsym s exec --no-startup-id ~/.i3/i3exit suspend, mode "default"
+    bindsym h exec --no-startup-id ~/.i3/i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id ~/.i3/i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
